@@ -1,0 +1,92 @@
+*{
+ background-color: rgba(9, 105, 116, 0.151);
+ height: 100%;   
+
+}
+h1{
+       color: rgba(0, 146, 110, 0.096);
+       font-family: 'Courier New', Courier, monospace;
+       text-align: center;
+}
+#container{
+       height: 12.5rem;
+       width: 43.75rem;
+       background-color: rgba(43, 105, 107, 0.226);
+       margin: 0 auto;
+       border: 0.313rem solid rgba(68, 53, 53, 0.664);
+       display: grid;
+       grid-template-columns: repeat(5,1fr);
+       grid-template-rows: repeat(3,1fr);
+}
+.lable{
+       margin: 0;
+
+       justify-content:space-between;
+       align-self: stretch;
+       font-size: 1.875rem;
+}
+#hour-lable{
+       grid-area: 1/2/1/3;
+}
+#min-lable{
+       grid-area: 1/3/1/4;
+}
+#sec-lable{
+       grid-area: 1/4/1/5;
+}
+.time{
+       justify-self: center;
+       align-self: center;
+       border: none;
+       background-color: rgba(88, 151, 29, 0.568);
+       font-size: 3.125rem;
+       width: 4.375rem;
+       height: 3.125rem;
+}
+#hour{
+       grid-area: 2/2/2/3;
+}
+.semicolon{
+       justify-self: center;
+       align-self: center;
+
+      font-size: 1.875rem;
+      margin: 0px;
+}
+#p1{
+       grid-area: 2/2/2/4;
+}
+#min{
+       grid-area: 2/3/2/4;
+}
+#p2{
+       grid-area: 2/3/2/5;
+}
+#sec{
+       grid-area: 2/4/2/5;
+}
+.btn{
+       align-self: center;
+       width: 6.25rem;
+       height: 2.5rem;
+       font-size: 1.875rem;
+       justify-self: center;
+}
+#start{
+       grid-area: 3/2/3/4;
+}
+#reset{
+       grid-area: 3/3/3/5;
+}
+.me{
+       justify-content: center;
+position: relative;
+left: 0;
+width: 100vw;
+height: 20vh;
+font-size: 1.5rem;
+background-color: rgba(172, 3, 53, 0.411);
+color: rgba(2, 15, 10, 0.384);
+border: rgba(0, 0, 0, 0.479) solid 2px;
+font-family: 'Rampart One', cursive;
+}
